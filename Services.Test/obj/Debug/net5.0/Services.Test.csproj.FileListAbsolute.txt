@@ -1,0 +1,5 @@
+C:\Users\inakama\source\3gis\SmallWorld\Services.Test\obj\Debug\net5.0\Services.Test.csprojAssemblyReference.cache
+C:\Users\inakama\source\3gis\SmallWorld\Services.Test\obj\Debug\net5.0\Services.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\inakama\source\3gis\SmallWorld\Services.Test\obj\Debug\net5.0\Services.Test.AssemblyInfoInputs.cache
+C:\Users\inakama\source\3gis\SmallWorld\Services.Test\obj\Debug\net5.0\Services.Test.AssemblyInfo.cs
+C:\Users\inakama\source\3gis\SmallWorld\Services.Test\obj\Debug\net5.0\Services.Test.csproj.CoreCompileInputs.cache
