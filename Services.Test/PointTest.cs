@@ -20,7 +20,7 @@ namespace Services.Test
         [TestCase(-1, 1, 1, 1, 2)]
         [TestCase(2, 2, 1, -1, 3.1622)]
         [TestCase(-2, 2, 1, -1, 4.2426)]
-        public void When_ThereAreNoPoints_Expect_NoResults(
+        public void When_GetDistanceFromOtherPoint_Expect_EuclideanDistanceBetweenThem(
                                             double xCoordinateFromPoint, 
                                             double yCoordinateFromPoint,
                                             double xCoordinateFromAnotherPoint,

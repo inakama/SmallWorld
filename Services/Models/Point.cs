@@ -13,7 +13,7 @@ namespace SmallWorld.Service.Services.Models
 
         public Dictionary<int, double> PointDistances { get; set; } = new Dictionary<int, double>();
 
-        public double CalculateDistanceFrom( Point anotherPoint)
+        public double CalculateDistanceFrom(Point anotherPoint)
         {
             return Math.Sqrt((Math.Pow((this.XCoordinate - anotherPoint.XCoordinate), 2) +
                      Math.Pow((this.YCoordinate - anotherPoint.YCoordinate), 2)));

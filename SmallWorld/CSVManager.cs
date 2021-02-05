@@ -9,7 +9,6 @@ namespace SmallWorld
 {
     public class CSVManager
     {
-
         public List<PointInputDto> GetPoints(string csvPath)
         {
             var csvTable = new DataTable();
