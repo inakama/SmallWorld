@@ -20,12 +20,12 @@ namespace SmallWorld
 
         public void Start()
         {
-            var inputPoints = this.csvManager.GetPoints(ConfigurationManager.AppSettings["CSVFile"]);
-            var closestPoints = smallWorldService.GetClosestPoints(inputPoints);
-            ShowToConsole(closestPoints);
+            var points = this.csvManager.GetPoints(ConfigurationManager.AppSettings["CSVPath"]);
+            var closestPoints = smallWorldService.GetClosestPoints(points);
+            DisplayClosestPoints(closestPoints);
         }
 
-        private void ShowToConsole(List<PointOutputDto> closestPoints)
+        private void DisplayClosestPoints(List<PointOutputDto> closestPoints)
         {
             foreach (var point in closestPoints)
             {
